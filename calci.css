@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+}
+
+.plate {
+    height: 80vh;
+    width: 30vw;
+    border: 2px solid black;
+    position: absolute;
+    right: 400px;
+    top: 50px;
+    border-radius: 10px;
+}
+
+.display {
+    height: 15vh;
+    border: 2px solid black;
+    position: relative;
+    top: 0px;
+    background-color: rgb(216, 196, 158);
+}
+
+
+button {
+    width: 60px;
+    height: 60px;
+    background-color: 2px solid yellow;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 70px;
+    font-size: 18px;
+}
+
+.numplate {
+    padding: 0px 25px;
+}
+
+input {
+    height: 15vh;
+    font-size: 32px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    border: none;
+    max-width: 28vw;
+    background-color: rgb(216, 196, 158);
+}
+
+.invert {
+    background-color: yellow;
+}
